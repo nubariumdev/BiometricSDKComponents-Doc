@@ -79,9 +79,11 @@ AndroidManfiest.xml
 
 ## Initializing the Android SDK
 
-It's recommended to initialize the SDK in the global Application class/subclass. 
+It's recommended to initialize the SDK in the global Application class, you need to add the following code in you onCreate  of application class.
 
-###  Capture
+```java
+com.nubarium.sdk.facecapture.FaceCaptureInitializer.init(getApplicationContext());
+```
 
 #### **Step 1: Import Nubarium library**
 
