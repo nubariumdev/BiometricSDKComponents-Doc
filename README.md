@@ -1,5 +1,3 @@
-# BiometricSDKComponents-Doc
-
 # Biometric SDK for Android
 Nubarium Biometrics Android SDK guides for developers.
 [![GitHub Release](https://badgen.net/badge/release/v1.902/cyan)]()  
