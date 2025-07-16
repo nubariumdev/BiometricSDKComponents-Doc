@@ -26,8 +26,8 @@ In the Project `build.gradle` file, declare the `jitpack` repository:
 maven {
   url = uri("https://jitpack.io")
   credentials {
-    username = "jp_akd345ksdhfdkfddfp"
     // Your Access token
+    username = "jp_akd345ksdhfdkfddfp"
     password = ""
   }
 }
