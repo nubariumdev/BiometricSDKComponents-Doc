@@ -24,7 +24,7 @@ In the Project `build.gradle` file, declare the `jitpack` repository:
 
 ```kotlin
 maven {
-	url = uri("https://jitpack.io")
+  url = uri("https://jitpack.io")
   credentials {
     username = "jp_akd345ksdhfdkfddfp"
     // Your Access token
@@ -40,7 +40,7 @@ In the application `build.gradle` file, add the <u>latest Android SDK</u> packag
 ```kotlin
 dependencies {
     // Get the latest version from Nubarium Biometrics SDK repository
-    implementation("com.github.nubariumdev:BiometricSDKComponents:v1.902")
+  implementation("com.github.nubariumdev:BiometricSDKComponents:v1.902")
 }
 ```
 
