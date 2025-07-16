@@ -51,15 +51,11 @@ Add the following permissions to `AndroidManifest.xml`:
 AndroidManfiest.xml
 
 ```xml
-<uses-feature android:name="android.hardware.sensor.accelerometer" />
-<uses-feature android:name="android.hardware.sensor.magnetic_field" />
-
 <uses-feature android:name="android.hardware.camera" />
 <uses-feature android:name="android.hardware.camera.autofocus" />
+
 <uses-permission android:name="android.permission.CAMERA" android:required="true" />
-
 <uses-permission android:name="android.permission.INTERNET" />
-
 <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
