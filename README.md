@@ -63,13 +63,6 @@ AndroidManfiest.xml
 <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-<!-- In case you use the VideoRecording component -->
-<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-<uses-permission android:name="android.permission.RECORD_AUDIO" />
-
-<!-- Use face if you are using FaceCapture and ocr if you are using IdCapture -->
-<meta-data android:name="com.google.mlkit.vision.DEPENDENCIES" android:value="ocr, face" />
-
 ```
 
 ### Known issues
